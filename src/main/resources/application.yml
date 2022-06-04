@@ -1,0 +1,37 @@
+
+#server:
+#  port: 8081
+
+#  指定访问路径
+#servlet:
+#  context-path: /xiast
+
+#debug: true
+
+
+##logging.file.name 可以指定 具体路径 也可以 指定 日志文件名字！
+#logging:
+#  file:
+#    path: /Spring/log
+
+
+#  console: '%d{yyyy‐MM‐dd} [%thread] [%‐5level] %logger{50} ‐ %msg%n' 复制pdf文件 日志表达式 报错 ?
+#  同样内容手敲后正常运行!
+#  pattern:
+#    console: '%d{yyyy-mm-dd} [%thread] [%-5level] %logger{50} - %msg%n'
+#    file: '%d{yyyy‐MM‐dd} [%thread] [%-5level] %logger{20} - [%method,%line] - %msg%n'
+
+##调整日志输出优先级！level:
+#    com.example.demo: debug
+#  level:
+#    com.example.demo: debug
+
+#禁用实时缓存
+Spring:
+  thymeleaf:
+    cache: false
+  messages:
+    basename: i18n/login
+
+
+
