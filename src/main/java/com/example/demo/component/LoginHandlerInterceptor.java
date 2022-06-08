@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 登陆检查，
  * 登录拦截检查 MVC内容
+ * 空格键！
  */
 public class LoginHandlerInterceptor implements HandlerInterceptor {
 
