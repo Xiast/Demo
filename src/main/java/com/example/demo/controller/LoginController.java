@@ -20,7 +20,7 @@ public class LoginController {
             session.setAttribute("loginUser",username);
 
             //登陆成功，防止表单重复提交，可以重定向到主页
-            return "redirect:/main.html";
+            return "redirect:/main";
 
         }else{
             //登陆失败
